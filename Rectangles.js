@@ -10,8 +10,8 @@ Your output cannot end with a newline.
 
 Example
 
-```javascript rectangle("*",5,3); /* => ***** ***** ***** */ ```
-*/
+```javascript rectangle("*",5,3); /* => ***** ***** ***** */ 
+
 function rectangle(char, width, height) {
     let arr = [];
     for (let i=0;i<height;i++){
